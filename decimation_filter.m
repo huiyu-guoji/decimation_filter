@@ -42,7 +42,7 @@ fs_half_128m_2 = fs/512;
 trans_half128m_2=3000;
 hfirha2fbanddecim_128m = dsp.FIRHalfbandDecimator(...
     'Specification','Transition width and stopband attenuation',...
-    'TransitionWidth',trans_half2,'StopbandAttenuation',80,'SampleRate',fs_half_128m_2);
+    'TransitionWidth',trans_half128m_2,'StopbandAttenuation',80,'SampleRate',fs_half_128m_2);
 half2en_128m = coeffs(hfirha2fbanddecim_128m);
 half2co_128m = half2en_128m.Numerator;
 half2co_r_128m = round(half2co_128m * 2^11);
