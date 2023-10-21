@@ -1,6 +1,6 @@
 <a name="GNIcx"></a>
 ## 1.文件构成
-1. decimation_filter模型包括一个simulink模型以及一个，matlab脚本文件组成（.m和.slx）。其中基本框架在simulink中搭建，脚本用于计算FIR滤波器的简化后系数与绘制频响图像。
+1. decimation_filter模型包括一个simulink模型以及一个matlab脚本文件组成（.m和.slx）。其中基本框架在simulink中搭建，脚本用于计算FIR滤波器的简化后系数与绘制频响图像。
 2. 在运行相关模型前，需要确保在matlab路径中已经添加了SDtoolbox，正常的matlab没有，需要另外安装。
 <a name="CN3yH"></a>
 ## 2.matlab脚本说明
